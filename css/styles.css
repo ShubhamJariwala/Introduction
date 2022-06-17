@@ -5,8 +5,8 @@ body{
 
 .name{
     margin-top: 7%;
-   background-color:rgb(162, 232, 173);
-   color: crimson;
+   background-color:gray;
+   color: white;
    
 }
 
@@ -16,7 +16,7 @@ body{
     align-items: center;
     align-content: center;
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .introduction{
     background-color: rgb(190, 255, 238);
