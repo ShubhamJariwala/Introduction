@@ -1,18 +1,21 @@
 body{
-    margin: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 
 .name{
-    margin-top: 7%;
+   
    background-color:gray;
    color: white;
    
 }
 
 .nameheading{
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
     align-items: center;
     align-content: center;
     text-align: center;
@@ -37,4 +40,18 @@ body{
     padding-right: 4%;
     padding-bottom: 1%;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.columns{
+    columns: 100px 2;
+
+}
+.columnsleft{
+    float: left;
+    padding-left: 4%;
+}
+
+.columnsright{
+    float:right;
+    padding-right: 25%;
 }
