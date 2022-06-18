@@ -3,6 +3,10 @@ body{
     margin-bottom: 2%;
     margin-left: 0%;
     margin-right: 0%;
+    
+}
+main{
+    padding-top: 14%;
 }
 
 
@@ -22,7 +26,7 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .introduction{
-    background-color: rgb(190, 255, 238);
+    background-color:lightblue;
     margin-top: 2%;
    
 }
@@ -34,24 +38,31 @@ body{
 
 }
 .content{
+    background-color: antiquewhite;
     text-align: justify;
     padding-top: 1%;
     padding-left: 4%;
     padding-right: 4%;
     padding-bottom: 1%;
     font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .columns{
-    columns: 100px 2;
+    columns: 110px 2;
 
 }
 .columnsleft{
     float: left;
+    columns: 1;
     padding-left: 4%;
+   
+
+
 }
 
 .columnsright{
     float:right;
-    padding-right: 25%;
+    padding-right: 4%;
+    columns: 1;
 }
